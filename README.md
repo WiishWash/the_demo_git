@@ -1,5 +1,5 @@
-## WEBT1320 1320
+## WEBT 1320 Project Page
  
 <h1> Project 1 </h1>
 
-<a href="git@github.com:WiishWash/the_demo_git.gittarget/index.="_project1.html>
+<a href="Project1/index.html" target="_blank">Project1</a> 
