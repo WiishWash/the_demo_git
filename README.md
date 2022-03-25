@@ -2,4 +2,4 @@
 
 <h2>Project List</h2>
 
-<a href="Project 1\index.html="_blank></a>
+<a href="Project 1"_blank></a>
