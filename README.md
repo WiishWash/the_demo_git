@@ -2,4 +2,4 @@
 
 <h2>Project List</h2>
 
-<a href="//github.com/WiishWash/the_demo_git"_blank></a>
+<a href="index.html"_blank></a>
