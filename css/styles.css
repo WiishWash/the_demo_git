@@ -48,7 +48,7 @@ nav a {
     margin: 0 40px;
 }
 
-nav :hover {
+nav a :hover {
     background-color: #815f48;
     color: #ac3030;
 }
