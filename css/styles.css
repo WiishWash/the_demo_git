@@ -9,12 +9,12 @@ body {
     width: 800px;
     margin: 1px auto;
     border-radius: 100px;
-    box-shadow: 10px 10px #140c02;
+    box-shadow: 5px 10px 10px #140c02;
     }
 
 header {
     padding-top: 20px 0;
-    background-color:#c4b7b7;
+    background-color:  #c4b7b7;
     border-radius: 10px 10px 0 0;
 }
 
