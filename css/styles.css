@@ -48,7 +48,7 @@ nav a {
     margin: 0 40px;
 }
 
-nav a:hover {
+nav a :hover {
     background-color: #815f48;
     color: #ac3030;
 }
@@ -81,7 +81,7 @@ footer {
     padding: 5px 0;
     color: #140c02;
     font-size: 1.5em;
-    text-align:center;
+    text-align: center;
     border-radius: 0 0 10px 10px;
 
 }
