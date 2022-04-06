@@ -1,7 +1,8 @@
-# WEBT 1320 Project Page
+## WEBT 1320 Project Page
 
-<h1>Project List</h1>
+<h1>Labs</h1>
 
 <ul>
-  <li><a href="the_demo_git/index.html"  target="_blank"></a></li>
-</ul> 
+    <li> <a href="index.html" target="_blank">Lab 3</a></li>
+
+</ul>
