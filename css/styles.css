@@ -23,7 +23,7 @@ img {
 header {
     background-image: url('../images/image4.png');
     background-size: cover;
-    padding: 70px o;
+    padding: 70px;
 }
 
 header h1 {
@@ -49,7 +49,7 @@ nav li a {
     line-height: 40px;
     text-align: center;
     text-decoration: none;
-    font-size: 1.2m;
+    font-size: 1.2em;
     margin: 10px 0;
     border-radius: 10px;
 }
