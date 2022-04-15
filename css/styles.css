@@ -1,9 +1,9 @@
+/* Global Styles */
 body {
-    background-color:#c0c7d4;
+    background-color:#4A3B5C;
     font-size: 15.5px;
     font-family: 'Send Flowers', cursive;
     font-family: 'Rubik Puddles', cursive;
-
 }
 
 img {
@@ -12,93 +12,217 @@ img {
     margin: 0 auto;
 }
 
+
 /* Mobile Styles */
 
 #container {
-    background-color:#fdb8b8fa;
-    margin: 100px;
-    font-family: 'Rubik Puddles', cursive;
-    font-family: 'Send Flowers', cursive;
+    background-color: #F2D0F2;
+    margin: 10px;
 }
-    
+
 header {
-    padding: 10px;
-    border-bottom: 4px solid #96938a;
-    font-family: 'Rubik Puddles', cursive;
+    background-image: url('../images/image4.png');
+    background-size: cover;
+    padding: 70px o;
 }
 
 header h1 {
+    color: #A95998;
+    text-shadow: 2px 2px 2px #000;
     text-align: center;
-    font-size: 2.5em;
 }
 
-.col {
-    border: 6px solid #4b4035;
-    padding: 20px;
-    margin: 20px;
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    background-color: #BD9F69;
+    color: #FFE7FD;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2m;
+    margin: 10px 0;
     border-radius: 10px;
+}
+
+nav li a:hover {
+    background-color: #187652;
+    text-shadow: 2px 2px 2px #000;
+}
+
+nav, section, aside, .col, footer {  
+    background-color: #FFDCFF;
+    padding: 10px;
+    margin: 10px;
+    border: 4px solid #ECA9DE;
+    border-radius: 10px;
+}
+
+h2, h3 {
+    color: #3E315D;
+    text-shadow: 2px 2px 2px #000;
     font-size: 1.5em;
-    font-family: 'Send Flowers', cursive;
-}
-
-.col h2 {
     text-align: center;
-    font-size: 1em; 
-    font-family: 'Rubik Puddles', cursive;
 }
 
-.col image {
-    width: 50%;
+section img, aside img {
+    width: 90%;
 }
 
-.main_img {
-    display: none;
-    width: 20%;
-}    
+.button {
+    display: block;
+    background-color: #024059;
+    color: #FFE7FD;
+    height: 40px;
+    width: 200px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: #D8AFD7;
+    text-shadow: 2px 2px 2px #000;
+}
 
 footer {
-    padding: 10px 0;
     text-align: center;
-    border-top: 4px solid #96938a;
-    font-weight: bold;
-    font-family: 'Rubik Puddles', cursive; 
+    color: #192D2E;
 }
+
+.single_col {
+    width: 83%;
+}
+
+audio, video {
+    display: block;
+    margin: 20px auto;
+    width: 75%;
+}
+
+.gallery_img {
+    border: 4px solid #BD9F69;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+table {
+    display: none;
+}
+
+/* Tablet Styles*/
 
 @media(min-width: 768px) {
-    #container {
-        width: 100%;
-        margin: 20px auto;
+    header {
+        padding: 125px;
     }
-    .col {
-        width: 65%;
-        margin: 20px auto;
+    
+    header h1 {
+        font-size: 3em;
     }
 
-    .col img {
-        width: 30%;
+    nav{
+        text-align: center;
+        padding: 5px;
+    }
+
+    nav li {
+        display: inline-block;      
+    }
+
+    nav li a {
+        height: 50px;
+        line-height: 50px;
+        width: 200px;
+    }
+
+    #upper_flex {
+        display: flex;
+    }
+
+    section, aside {
+        width: 50%;
+    }
+
+    aside img {
+        width: 50%;
+    }
+
+    .col image {
+        width: 75%;
+        border-radius: 10px;
+        border: 4px solid #E28800;
+    }
+
+    .single_col {
+        width: 95%;
     }
 }
 
-@media(min-width: 1024px) {
+
+
+/* Desktop Styles */
+
+@media (min-width: 1024px) {
     #container {
         width: 75%;
+        margin: 20px auto;
+        border: 4px solid #BD9F69;
+        border-radius: 20px; 
     }
 
-    #flex {
+    header {
+        border-radius: 20px 20px 0 0;
+    }
+
+    nav li a {
+        margin: 0 20px;
+    }
+
+    #lower_flex {
         display: flex;
     }
 
     .col {
-        margin: 20px;
+        width: 100%;
+
     }
 
     .col img {
-        width: 40%;
+        width: 100%;
     }
 
-    .main_img {
+    .single_col {
+         width: 100%;
+    }
+
+    table, tr, td {
+        border: 4px solid #D97904;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    table img {
+        width: 100%;
+    }
+
+    .gallery {
+        display: none;
+    }
+
+    table {
         display: block;
-        width: 30%;
-        margin: 20px auto;  
-    }   
+    }
 }

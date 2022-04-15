@@ -3,6 +3,6 @@
 <h1>Labs</h1>
 
 <ul>
-    <li> <a href="https://github.com/WiishWash/the_demo_git" target="_blank">Lab 3</a></li>
+    <li> <a href="https://github.com/WiishWash/the_demo_git" target="_blank">Lab 4</a></li>
 
 </ul>
