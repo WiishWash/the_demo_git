@@ -1,0 +1,98 @@
+body {
+    background-color:#c4b7b7;
+    font-family: 'Playfair Display', serif;
+
+}
+
+#container {
+    background-color:#815f48;
+    width: 800px;
+    margin: 1px auto;
+    border-radius: 100px;
+    box-shadow: 5px 10px 10px #140c02;
+    }
+
+header {
+    background-color:  #c4b7b7;
+    border-radius: 10px 10px 0 0;
+
+}
+
+header h1 {
+    font-size: 4.0em;
+    text-align: center;
+    color: #696969;
+    font-family: 'Playfair Display', serif;
+    text-shadow: 2px 2px 2px #140c02;
+
+}
+
+nav {
+    background-color: #c49962;
+    text-align: center;
+
+}
+
+nav a {
+    display: inline-block;
+    background-color: #241405dc;
+    height: 40px;
+    width: 150px;
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 40px;
+    color: #c4b7b7;
+    text-decoration: none;
+    border-radius: 10px 40px 0 0;
+    margin: 0 40px;
+}
+
+nav a:hover {
+    background-color: #815f48;
+    color: #ac3030;
+}
+
+main {
+    background-color:#c4b7b7 ;
+    margin: 0 20px 20px 20px;
+
+}
+
+main h2 {
+    text-align: center;
+    color:#c49962;
+    font-size: 1.5em;
+    font-family: 'Red Hat Mono', monospace;
+
+}
+
+main img {
+    display: block;
+    width: 60%;
+    margin: 10px auto;
+    background-color: #3f2502;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color:#c49962;
+    padding: 5px 0;
+    color: #140c02;
+    font-size: 1.5em;
+    text-align:center;
+    border-radius: 0 0 10px 10px;
+
+}
+
+.active {
+    background-color: #815f48;
+    color: #ac3030;
+}
+
+.pro_head {
+    text-align: center;
+    color:#ac3030;
+    font-size: 1.5em;
+    font-family: 'Playfair Display', serif;
+}

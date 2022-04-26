@@ -1,0 +1,102 @@
+body {
+    background-color:#c0c7d4;
+    font-size: 15.5px;
+    font-family: 'Send Flowers', cursive;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Mobile Styles */
+
+#container {
+    background-color:#fdb8b8fa;
+    margin: 100px;
+    font-family: 'Rubik Puddles', cursive;
+    font-family: 'Send Flowers', cursive;
+}
+    
+header {
+    padding: 10px;
+    border-bottom: 4px solid #96938a;
+    font-family: 'Rubik Puddles', cursive;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.col {
+    border: 6px solid #4b4035;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 1.5em;
+    font-family: 'Send Flowers', cursive;
+}
+
+.col h2 {
+    text-align: center;
+    font-size: 1em; 
+    font-family: 'Rubik Puddles', cursive;
+}
+
+.col image {
+    width: 50%;
+}
+
+.main_img {
+    display: none;
+    width: 20%;
+}    
+
+footer {
+    padding: 10px 0;
+    text-align: center;
+    border-top: 4px solid #96938a;
+    font-weight: bold;
+    font-family: 'Rubik Puddles', cursive; 
+}
+
+@media(min-width: 768px) {
+    #container {
+        width: 100%;
+        margin: 20px auto;
+    }
+    .col {
+        width: 65%;
+        margin: 20px auto;
+    }
+
+    .col img {
+        width: 30%;
+    }
+}
+
+@media(min-width: 1024px) {
+    #container {
+        width: 75%;
+    }
+
+    #flex {
+        display: flex;
+    }
+
+    .col {
+        margin: 20px;
+    }
+
+    .col img {
+        width: 40%;
+    }
+
+    .main_img {
+        display: block;
+        width: 30%;
+        margin: 20px auto;  
+    }   
+}
