@@ -1,96 +1,229 @@
+/* Global Styles */
 body {
-    background-color:#c0c7d4;
+    background-color:#4A3B5C;
     font-size: 2.3em;
     font-family: 'Indie Flower', cursive;
 }
 
 img {
-    display: block;
-    max-width: 100%;
-    margin: 2px auto;
+    display: flexbox;
+    max-width: 50%;
+    margin: 50px auto;
+    text-align: center;
 }
+
 
 /* Mobile Styles */
 
 #container {
-    background-color:#fdb8b8fa;
-    margin: 120px;
-    font-family: 'Indie Flower', cursive;
+    background-color: #F2D0F2;
+    margin: 12px;
 }
-    
+
 header {
-    padding: 10px;
-    border-bottom: 4px solid #96938a;
-    font-family: 'Indie Flower', cursive;
+    background-image: url('../images/image4.png');
+    background-size: auto;
+    padding: 12.5px;
 }
 
 header h1 {
+    color: darksalmon;
+    font-size:  2.5em;
+    text-shadow: 2px 2px 2px #000;
     text-align: center;
-    font-size: 4.5em;
 }
 
-.col {
-    border: 6px solid #4b4035;
-    padding: 50px;
-    margin: 50px;
-    border-radius: 50px;
+nav ul {
+    list-style-type: none;
+    padding: 1px;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    background-color: #BD9F69;
+    color: #FFE7FD;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
     font-size: 1em;
-    font-family: 'Indie Flower', cursive;
+    margin: 10px 0;
+    border-radius: 10px;
 }
 
-.col h2 {
+nav li a:hover {
+    background-color: #187652;
+    text-shadow: 2px 2px 2px #000;
+}
+
+nav, section, aside, .col, footer {  
+    background-color: #FFDCFF;
+    padding: 1px;
+    margin: 10px;
+    border: 4px solid #ECA9DE;
+    border-radius: 10px;
+}
+
+h2, h3 {
+    color: #3E315D;
+    text-shadow: 2px 2px 2px #000;
+    font-size: 1em;
     text-align: center;
-    font:  45em; 
-    font-family: 'Indie Flower', cursive;
 }
 
-.col image {
+section img, aside img {
     width: 50%;
 }
 
-.main_img {
-    display:  contents;
-}    
+.button {
+    display: block;
+    background-color: #024059;
+    color: #FFE7FD;
+    height: 45px;
+    width: 100px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+.button:hover {
+    background-color: #D8AFD7;
+    text-shadow: 2px 2px 2px #000;
+}
 
 footer {
-    padding: 10px 0;
     text-align: center;
-    border-top: 4px solid #96938a;
-    font-weight: bold;
-    font-family: 'Indie Flower', cursive;
+    color: #192D2E;
 }
+
+.single_col {
+    width: 93%;
+}
+
+audio, video {
+    display: block;
+    margin: 20px auto;
+    width: 75%;
+}
+
+.gallery_img {
+    border: 4px solid #BD9F69;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+table {
+    display: none;
+}
+
+/* Tablet Styles*/
 
 @media(min-width: 768px) {
-    #container {
-        width: 93.5%;
-        margin: 120px auto;
+    header {
+        padding: 1px;
     }
-    .col {
-        width: 100%;
-        margin: 1 20px auto;
-    }
-
-    .col img {
-        width: 110%;
-    }
-}
-
-@media(min-width: 1224px) {
-    #container {
-        width: 100%;
+    
+    header h1 {
+        font-size: 3em;
     }
 
-    #flex {
+    nav{
+        text-align: center;
+        padding: 1px;
+    }
+
+    nav li {
+        display: inline-block;      
+    }
+
+    nav li a {
+        height: 50px;
+        line-height: 50px;
+        width: 200px;
+    }
+
+    #upper_flex {
         display: flex;
     }
 
-    .col img {
-        width: 110%;
+    section, aside {
+        width: 50%;
     }
 
-    .main_img {
+    aside img {
+        width: 50%;
+    }
+
+    .col image {
+        width: 100%;
+        border-radius: 10px;
+        border: 4px solid #E28800;
+    }
+
+    .single_col {
+        width: 95%;
+    }
+}
+
+
+
+/* Desktop Styles */
+
+@media (min-width: 1024px) {
+    #container {
+        width: 10%;
+        margin: 20px auto;
+        border: 4px solid #BD9F69;
+        border-radius: 20px; 
+    }
+
+    header {
+        border-radius: 20px 20px 0 0;
+    }
+
+    nav li a {
+        margin: 0 20px;
+    }
+
+    #lower_flex {
+        display: flex;
+    }
+
+    .col {
+        width: 100%;
+
+    }
+
+    .col img {
+        width: 100%;
+    }
+
+    .single_col {
+         width: 100%;
+    }
+
+    table, tr, td {
+        border: 4px solid #D97904;
+        padding: 1px;
+        margin: 10px;
+    }
+
+    table img {
+        width: 100%;
+    }
+
+    .gallery {
+        display: none;
+    }
+
+    table {
         display: block;
-        width: 110%;
-        margin: 110px auto;  
-    }   
+    }
 }
