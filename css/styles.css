@@ -6,7 +6,7 @@ body {
 }
 
 img {
-    display: flexbox;
+    display: block;
     max-width: 15%;
     margin: 12px auto;
     text-align: center;
@@ -22,7 +22,7 @@ img {
 
 header {
     background-image: url('../images/image4.png');
-    background-size: contain;
+    background-size: auto;
     padding: 11px;
 }
 
