@@ -1,20 +1,20 @@
 body {
     background-color:#c0c7d4;
-    font-size: 17.5px;
+    font-size: 2.3em;
     font-family: 'Indie Flower', cursive;
 }
 
 img {
     display: block;
-    max-width: 75%;
-    margin: 0 auto;
+    max-width: 100%;
+    margin: 2px auto;
 }
 
 /* Mobile Styles */
 
 #container {
     background-color:#fdb8b8fa;
-    margin: 100px;
+    margin: 120px;
     font-family: 'Indie Flower', cursive;
 }
     
@@ -31,21 +31,21 @@ header h1 {
 
 .col {
     border: 6px solid #4b4035;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 10px;
-    font-size: 1.5em;
+    padding: 50px;
+    margin: 50px;
+    border-radius: 50px;
+    font-size: 1em;
     font-family: 'Indie Flower', cursive;
 }
 
 .col h2 {
     text-align: center;
-    font:  5em; 
+    font:  45em; 
     font-family: 'Indie Flower', cursive;
 }
 
 .col image {
-    width: 100%;
+    width: 50%;
 }
 
 .main_img {
@@ -62,16 +62,16 @@ footer {
 
 @media(min-width: 768px) {
     #container {
-        width: 100%;
-        margin: 20px auto;
+        width: 93.5%;
+        margin: 120px auto;
     }
     .col {
         width: 100%;
-        margin: 20px auto;
+        margin: 1 20px auto;
     }
 
     .col img {
-        width: 30%;
+        width: 110%;
     }
 }
 
@@ -84,17 +84,13 @@ footer {
         display: flex;
     }
 
-    .col {
-        margin: 20px;
-    }
-
     .col img {
-        width: 0%;
+        width: 110%;
     }
 
     .main_img {
         display: block;
-        width: 10%;
-        margin: 10px auto;  
+        width: 110%;
+        margin: 110px auto;  
     }   
 }

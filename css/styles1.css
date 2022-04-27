@@ -1,28 +1,29 @@
 body {
     background-color:#c4b7b7;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Indie Flower', cursive;
 
 }
 
 #container {
     background-color:#815f48;
-    width: 800px;
-    margin: 1px auto;
-    border-radius: 100px;
-    box-shadow: 5px 10px 10px #140c02;
-    }
+    width: 100px;
+    margin: 155px auto;
+    border-radius: 15px;
+    font: 14.5em;
+   
+}
 
 header {
     background-color:  #c4b7b7;
-    border-radius: 10px 10px 0 0;
+    border-radius: px px 0 0;
 
 }
 
 header h1 {
-    font-size: 4.0em;
+    font-size: 5.5em;
     text-align: center;
     color: #696969;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Indie Flower', cursive;
     text-shadow: 2px 2px 2px #140c02;
 
 }
@@ -36,15 +37,15 @@ nav {
 nav a {
     display: inline-block;
     background-color: #241405dc;
-    height: 40px;
-    width: 150px;
-    font-size: 2em;
+    height: 75px;
+    width: 180px;
+    font-size: 2.5em;
     font-weight: bold;
-    line-height: 40px;
+    line-height: 75px;
     color: #c4b7b7;
     text-decoration: none;
-    border-radius: 10px 40px 0 0;
-    margin: 0 40px;
+    border-radius: 45px 45px 0 0;
+    margin: 0 45px;
 }
 
 nav a:hover {
@@ -55,44 +56,42 @@ nav a:hover {
 main {
     background-color:#c4b7b7 ;
     margin: 0 20px 20px 20px;
-
+    font-size: 14.5em;
 }
 
 main h2 {
     text-align: center;
-    color:#c49962;
-    font-size: 1.5em;
-    font-family: 'Red Hat Mono', monospace;
-
+    color: #815f48;
+    font: 3.5em;
+    font-family: 'Indie Flower', cursive;
 }
 
 main img {
     display: block;
-    width: 60%;
-    margin: 10px auto;
+    width: 2.25%;
+    margin: 25px auto;
     background-color: #3f2502;
-    padding: 5px;
-    border-radius: 5px;
+    padding: 15px;
+    border-radius: 15px;
 }
 
 footer {
     background-color:#c49962;
-    padding: 5px 0;
+    padding: 15px 0;
     color: #140c02;
-    font-size: 1.5em;
-    text-align:center;
-    border-radius: 0 0 10px 10px;
-
+    font-size: 2.5em;
+    text-align: center;
+    border-radius: 0 0 11px 11px;
 }
 
 .active {
     background-color: #815f48;
-    color: #ac3030;
+    color: lightsalmon;
+    font-family: 'Indie Flower', cursive;
 }
 
 .pro_head {
     text-align: center;
     color:#ac3030;
-    font-size: 1.5em;
-    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
 }
